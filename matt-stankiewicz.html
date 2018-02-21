@@ -3,13 +3,13 @@
     <head>
 <style>
     h1 {
-    color: darkgray;
+    color: dimgray;
     font-family: serif;
     font-size: 300%;
     text-align: left
     }
     h3 {
-    color: darkgray;
+    color: black;
     font-family: serif;
     font-size: 150%;
     text-align: center
@@ -17,21 +17,64 @@
     p  {
     color: black;
     font-family: serif;
-    font-size: 120%;
-    padding: 0px; 200px; 200px; 0px;
+    font-size: 150%;
+    padding: 0px; 0px; 0px; 0px;
     margin: 20px; 20px; 20px; 20px;
     text-align: left;
     }
     img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 20px;
+    padding-right: 0px;
     padding-bottom: 20px;
+    margin: 20px
     }
     body {
     margin-left: 20px;
-    margin-right: 20px;    
+    margin-right: 20px;
+    animation: 1s;
+    }
+    figcaption {
+    color: red;
+    font-style: italic
+    }
+    footer {
+    background-color: lightgray;
+    padding-bottom:50px;
+    padding-top:50px;
+    padding-right:50px;
+    padding-left:50px;
+    }
+    #footertext {
+        color: black;
+        font-family: cursive
+    }
+    ul{
+        list-style-type: none;
+        padding: 20px;
+        margin: 0;
+        overflow: hidden;
+        background: #333;
+    }
+    
+    li {
+    display: inline;
+    float: none;
+    font-family: sans-serif
+    }
+    li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px; 15px;
+    
+    }
+    li a:hover{
+        border-top-color: red;
+        background-color: #111;
+
+    }
+    
+    article{
+        margin: 20px;20px;20px;20px;
     }
 </style>
         
@@ -50,7 +93,7 @@
         <body>
             <main>  
                 <figure style="float: left">
-                <img src="images/zeldman.png" alt="missing/" > 
+                <img src="images/zeldman.png" alt="missing/" width="95%" > 
                     <figcaption> Zeldman Pixel Art Work</figcaption>
                 </figure>
                 <article>
@@ -76,7 +119,7 @@
             <hr/>
             <footer>
                 <h3> Originally published at www.zeldman.com on January 5, 2016.</h3>
-                    <p> Designing and blogging since 1995, Jeffrey Zeldman is the publisher of A List Apart Magazine and A Book Apart, co-founder of An Event Apart design conference, and founder and creative director of studio.zeldman. Follow him @zeldman.</p>
+                    <p id="footertext">Designing and blogging since 1995, Jeffrey Zeldman is the publisher of A List Apart Magazine and A Book Apart, co-founder of An Event Apart design conference, and founder and creative director of studio.zeldman. Follow him @zeldman.</p>
             </footer>
 
         </body>
